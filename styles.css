@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    font-family: 'Segoe UI', sans-serif;
 }
 
 .material-icons-outlined {
@@ -23,11 +23,16 @@ body {
     overflow: hidden;
 }
 
+body::-webkit-scrollbar {
+    display: none;
+}
+
 nav {
-    width: 300px;
+    width: 570px;
     background-color: black;
     padding-top: 20px;
     padding-bottom: 20px;
+    padding-left: 270px;
     position: sticky;
     left: 0;
     top: 0;
@@ -37,6 +42,12 @@ nav {
     border-right: 1px solid #222;
     z-index: 10;
     color: white;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+
+nav::-webkit-scrollbar {
+    display: none;
 }
 
 nav ul {
@@ -106,6 +117,7 @@ nav ul .follow:hover {
 
 .X-logo {
     padding-left: 20px;
+    height: 35px;
 }
 
 .X-logo:hover {
@@ -172,6 +184,17 @@ nav ul .follow:hover {
     transform: translateX(-2%);
 }
 
+
+
+
+
+
+
+
+
+
+
+
 main {
     display: flex;
     flex-direction: column;
@@ -235,7 +258,7 @@ main {
 }
 
 .bio-buttons {
-    transform: translateY(-150%);
+    transform: translateY(-120%);
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
@@ -458,9 +481,8 @@ main {
 
 
 aside {
-    width: 370px;
-    padding: 10px 16px;
-    font-family: 'Segoe UI', sans-serif;
+    width: 700px;
+    padding: 10px 300px 0 16px;
     position: sticky;
     top: 0;
     right: 0;
@@ -681,4 +703,8 @@ aside::-webkit-scrollbar {
 
 .footer-links a:hover {
     text-decoration: underline;
+}
+
+.follow2 {
+    display: none;
 }

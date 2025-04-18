@@ -1,0 +1,378 @@
+@media (min-width: 1920px) {
+    nav {
+        width: 570px;
+        background-color: black;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 270px;
+        position: sticky;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        border-right: 1px solid #222;
+        z-index: 10;
+        color: white;
+        overflow-y: auto;
+        scrollbar-width: none;
+    }
+
+    nav::-webkit-scrollbar {
+        display: none;
+    }
+
+    body {
+        display: flex;
+        height: 100vh;
+        font-family: Arial, sans-serif;
+        overflow: hidden;
+    }
+
+    body::-webkit-scrollbar {
+        display: none;
+    }
+
+    aside {
+        width: 700px;
+        padding: 10px 300px 0 16px;
+        position: sticky;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        overflow-y: auto;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+        background-color: black;
+    }
+
+    aside::-webkit-scrollbar {
+        display: none;
+    }
+
+    .follow2 {
+        display: none;
+    }
+}
+
+@media (min-width: 1080px) and (max-width: 1600px) {
+    nav {
+        width: 370px;
+        background-color: black;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 70px;
+        position: sticky;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        border-right: 1px solid #222;
+        z-index: 10;
+        color: white;
+        overflow-y: auto;
+        scrollbar-width: none;
+    }
+
+    nav::-webkit-scrollbar {
+        display: none;
+    }
+
+    body {
+        display: flex;
+        height: 100vh;
+        font-family: Arial, sans-serif;
+        overflow: hidden;
+    }
+
+    body::-webkit-scrollbar {
+        display: none;
+    }
+
+    aside {
+        width: 300px;
+        padding: 10px 30px 0 16px;
+        position: sticky;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        overflow-y: auto;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+        background-color: black;
+    }
+
+    aside::-webkit-scrollbar {
+        display: none;
+    }
+
+    .follow2 {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1079px) {
+    nav {
+        width: 130px;
+        background-color: black;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        position: sticky;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        border-right: 1px solid #222;
+        z-index: 10;
+        color: white;
+        overflow-y: auto;
+        scrollbar-width: none;
+    }
+
+    nav::-webkit-scrollbar {
+        display: none;
+    }
+
+    nav ul li {
+        transform: translateX(5%);
+    }
+
+    nav .X-logo {
+        transform: translateX(-15%);
+    }
+
+    nav ul li p,
+    nav ul .follow p,
+    nav .you p {
+        display: none;
+    }
+
+    nav ul li a:hover {
+        width: 50px;
+    }
+
+    nav ul .follow {
+        width: 60px;
+        height: 60px;
+        padding: 0;
+        transform: translateX(30%);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+    }
+
+    nav .follow .material-icons-outlined {
+        color: black;
+        transform: translateX(30%);
+    }
+
+    nav #profile-icon {
+        transform: translateX(5%);
+    }
+
+    nav #more-icon {
+        display: none;
+    }
+
+    body {
+        display: flex;
+        height: 100vh;
+        width: 135%;
+        font-family: Arial, sans-serif;
+        overflow: hidden;
+    }
+
+    body::-webkit-scrollbar {
+        display: none;
+    }
+
+    .pfp-mini {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        object-fit: cover;
+        transform: translateX(40%);
+    }
+
+    aside {
+        width: 70px;
+        padding: 10px 300px 0 16px;
+        position: sticky;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        overflow-y: auto;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+        background-color: black;
+    }
+
+    aside::-webkit-scrollbar {
+        display: none;
+    }
+
+    .search-bar {
+        display: none;
+    }
+
+    .recommendations {
+        display: none;
+    }
+
+    .news {
+        display: none;
+    }
+
+    footer {
+        display: none;
+    }
+
+    .follow2 {
+        display: none;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        font-family: Arial, sans-serif;
+        overflow: hidden;
+    }
+
+    nav {
+        width: 100%;
+        height: 10vh;
+        background-color: black;
+        padding: 20px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        border-top: 1px solid #222;
+        z-index: 10;
+        color: white;
+        overflow-y: auto;
+        scrollbar-width: none;
+        order: 1;
+    }
+
+    nav::-webkit-scrollbar {
+        display: none;
+    }
+
+    nav ul li {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 0.1px;
+        padding: 0px 8px;
+        margin: 0;
+        width: auto;
+        color: white;
+        transform: none;
+        font-size: 0.1rem;
+        transform: translate(-1%, 1%);
+        height: 100%;
+    }
+
+    nav ul li .material-icons-outlined {
+        color: white;
+        font-size: 30px;
+    }
+
+    nav ul li p {
+        display: none;
+    }
+
+    nav ul .you {
+        display: none;
+    }
+
+    .follow2 {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        width: 60px;
+        height: 60px;
+        border-radius: 9999px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: black;
+        background-color: white;
+        font-weight: bold;
+        font-size: 14px;
+        cursor: pointer;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        z-index: 999;
+        transform: translateY(-150%);
+    }
+
+    .follow2 .material-icons-outlined {
+        transform: translate(10%, 30%);
+    }
+
+    .follow2:hover {
+        background-color: #1A8BD7;
+    }
+
+    nav .follow p {
+        display: none;
+    }
+
+    nav .follow .material-icons-outlined {
+        color: black;
+        transform: translateX(-300%);
+    }
+
+    nav #profile-icon {
+        transform: translateX(5%);
+    }
+
+    nav #more-icon {
+        display: none;
+    }
+
+    .bio-links {
+        padding: 8px;
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        border-radius: 8px;
+        max-width: 300px;
+        margin-top: 6px;
+    }
+
+    .bio-buttons {
+        margin-top: 35px;
+    }
+
+    aside {
+        display: none;
+    }
+
+    aside::-webkit-scrollbar {
+        display: none;
+    }
+
+    .posts {
+        transform: translateX(-5%);
+        width: 120%;
+    }
+
+    .pfp-mini {
+        transform: translateX(80%);
+        width: 30px;
+        height: 30px;
+    }
+
+    .post-top {
+        transform: translateX(10%);
+    }
+}
